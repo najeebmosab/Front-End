@@ -1,0 +1,4 @@
+myFunc() {
+    var num1 = ((document.getElementById("exchageRateDate") as HTMLInputElement).value);
+    console.log(num1);
+}

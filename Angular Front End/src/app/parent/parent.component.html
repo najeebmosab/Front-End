@@ -1,0 +1,112 @@
+<!-- <div class="container">
+  <div class="bg-danger p-2">
+    <p style="font-size: 30px;" (click)="counter=counter+10">{{counter}}</p>
+    <input type="text"  [(ngModel)]="counter"> -->
+<!--(keyup)="keyup($event)" -->
+<!-- <div class="m-4">
+      <app-child [FromParentData]="counter"></app-child>
+    </div>
+  </div>
+</div> -->
+<div class="container">
+  <div class="row">
+
+    <div class="back-white shadow-lg">
+      <div class="col-12">
+        <table class="table table-striped">
+          <thead class="text-center">
+            <tr>
+              <td>
+                Name
+              </td>
+              <td>
+                Input
+              </td>
+              <td>
+                Save
+              </td>
+            </tr>
+          </thead>
+
+          <tbody class="text-center">
+            <tr>
+              <td>
+                <label for="">input your Wordprass</label>
+              </td>
+              <td>
+                <input  id="Wordprass" type="text">
+              </td>
+              <td>
+                <button class="btn btn-success" (click)="Change('Wordprass')" >save</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="">input your JavaScript</label>
+              </td>
+              <td>
+                <input id="JavaScript" type="text">
+              </td>
+              <td>
+                <button class="btn btn-success" (click)="Change('JavaScript')">save</button>
+              </td>
+            </tr>
+
+
+            <tr>
+              <td>
+                <label for="">input your Drupal</label>
+
+              </td>
+              <td>
+                <input id="Drupal" type="text">
+              </td>
+              <td>
+                <button class="btn btn-success" (click)="Change('Drupal')">save</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="">input your HTML & CSS</label>
+              </td>
+              <td>
+                <input id="HTMLCSS" type="text">
+              </td>
+              <td>
+                <button class="btn btn-success" (click)="Change('HTMLCSS')">save</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="">input your Php & Msql</label>
+              </td>
+              <td>
+                <input id="PhpMsql" type="text">
+              </td>
+              <td>
+                <button class="btn btn-success" (click)="Change('PhpMsql')">save</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="">input your PhotoShop</label>
+              </td>
+              <td>
+                <input id="PhotoShop" type="text">
+              </td>
+              <td>
+                <button class="btn btn-success" (click)="Change('PhotoShop')">save</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <app-child [Wordpress]="Wordprass" [JavaScript]="JavaScript" [Drupal]="Drupal" [HTMLCSS]="HTMLCSS"
+        [PhpMsql]="PhpMsql" [PhotoShop]="PhotoShop" class="col-12"></app-child>
+    </div>
+  </div>
+</div>

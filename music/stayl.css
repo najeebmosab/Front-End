@@ -1,0 +1,356 @@
+/* start navbar */
+
+.an-imag-in-navbar {
+    height: 37px;
+    width: auto;
+    margin-top: 8px;
+    top: 50%;
+    color: #fff;
+}
+
+.li-in-navbar {
+    margin-left: 15px;
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+
+/* end navbar */
+
+
+/* start style for header */
+
+.sticky {
+    background-color: #fff !important;
+}
+
+.sticky a {
+    color: #000 !important;
+}
+
+.sticky a:hover {
+    font-weight: bold;
+}
+
+.header {
+    background-image: url(image/h.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.div-one-header {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+.p-in-div-header {
+    margin-top: 200px;
+    color: rgba(255, 255, 255, .92) !important;
+    margin-bottom: 5px;
+    font-size: 22px;
+    line-height: 1.86em;
+    font-family: 'Open Sans', arial;
+}
+
+.h2-in-div-header {
+    margin-bottom: 18px;
+    line-height: 1.2em;
+    color: #fff !important;
+    font-size: 60px !important;
+}
+
+.sec-p-in-div-header {
+    font-size: 22px;
+    color: rgba(255, 255, 255, .92);
+    box-sizing: inherit;
+    text-align: center !important;
+    display: flex;
+    justify-content: center !important;
+}
+
+.btn-in-div-header {
+    text-align: center !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 4px;
+    margin-top: 3px;
+}
+
+.btn-white {
+    background-color: rgb(255, 255, 255);
+    color: #121212;
+}
+
+.button-header:hover {
+    background-color: rgba(255, 255, 255, 0.521);
+    border: 1px solid transparent;
+}
+
+
+/* end style for header */
+
+
+/* start style for fr-section */
+
+.fr-section {
+    background-color: #f8f8f8;
+    color: #606060;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.div-in-section {
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+.img-w {
+    width: 500px;
+    height: 600px;
+}
+
+.h2-in-div-section {
+    padding-top: 50px;
+    margin-bottom: 17px;
+}
+
+.h2-in-div-in-section {
+    padding-top: 30px;
+}
+
+.p-in-div-in-section {
+    width: 500px;
+}
+
+
+/*  end style for fr-section*/
+
+
+/* start style for two-section */
+
+.two-section {
+    background-image: url(http://www.engage.veented.com/music/wp-content/uploads/sites/28/2017/04/photo-1491339526372-c7112c8e37f3.jpg?id=545);
+    height: 100vh;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fr-div-in-tow-section {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+.h2-in-div-in-two-section {
+    font-size: 30px;
+    padding-top: 80px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+.p1-in-div-in-tow-section {
+    padding-top: 20px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+    color: #fff;
+}
+
+.sec-div-in-tow-section {
+    padding-top: 50px;
+    display: flex;
+    margin-left: 130px;
+}
+
+.h5-in-div-in-tow-section {
+    align-items: center;
+    color: #fff;
+}
+
+.p2-in-div-in-tow-section {
+    align-items: center;
+    color: #fff;
+    width: 330px;
+    font-size: 14px;
+}
+
+
+/*  end style for two-section*/
+
+
+/* start style for three section */
+
+.three-section {
+    margin-top: 70px;
+}
+
+.h3-in-three-section {
+    align-items: center;
+    text-align: center;
+}
+
+.p-in-three-section {
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+    color: #888;
+    max-width: 720px;
+    margin: 17px auto 0;
+}
+
+.div-in-three-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-in-div-in-section {
+    width: 350px;
+    height: 400px;
+    padding-top: 60px;
+    padding-left: 0px;
+    margin-left: 20px;
+}
+
+.spnan-in-three-section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-in-three-section {
+    border: transparent solid 1px;
+    width: 120px;
+    height: 40px;
+    padding: 50px, 50px, 50px, 50px;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Open Sans', arial;
+    background-color: #ce5c9f;
+}
+
+.button-in-three-section:hover {
+    background-color: #373a3c;
+    border: 2px solid rgb(253, 253, 253);
+}
+
+.span-to-edit-text-in-button {
+    font-size: 12px;
+}
+
+
+/* end style for three section */
+
+
+/* start style for four section */
+
+.foure-section {
+    margin-top: 50px;
+    background-color: #f8f8f8;
+}
+
+.h3-in-foure-section {
+    padding-top: 70px;
+    align-items: center;
+    text-align: center;
+}
+
+.p-in-foure-section {
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+    color: #888;
+    max-width: 720px;
+    margin: 17px auto 0;
+}
+
+
+/* end style for four section  */
+
+
+/* start style for footer */
+
+.div-in-footer {
+    display: flex;
+    justify-content: center;
+    background-image: url(http://www.engage.veented.com/music/wp-content/uploads/sites/28/2017/04/4bdd2a58.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 62px;
+    padding-bottom: 52px;
+}
+
+.div-for-move {
+    margin-left: 30px;
+}
+
+.h4-in-div-in-foure-section {
+    font-size: 17px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.div-in-div-for-p {
+    margin-bottom: 6px;
+    padding-bottom: 7px;
+    color: #999999;
+    width: 320px;
+}
+
+.div-foure-section-for-ul {
+    margin-left: 20px;
+    list-style-type: none;
+    width: 400px;
+    color: #999999;
+}
+
+.li-in-div-foure-section-for-idet-li {
+    margin-bottom: 6px;
+    padding-bottom: 7px;
+}
+
+.div-foure-section-for-information {
+    color: #999999;
+    width: 400px;
+}
+
+.the-last-div-in0footer {
+    padding-top: 40px;
+    background-color: #151515;
+}
+
+.img-footer {
+    height: 90px;
+    width: 300px;
+}
+
+.the-last-div-in0footer>div {
+    color: #999999;
+    display: flex;
+    justify-content: center;
+}
+
+.idet-img-in-last-div-footer {
+    width: 50px;
+    height: 50px;
+    border: transparent solid 10px;
+    border-radius: 50px;
+    color: violet;
+}
+
+
+/* end style for footer  */
